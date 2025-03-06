@@ -1,0 +1,91 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('image/paper-4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow-y: auto;
+    color: #161616;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+video {
+    display: none;
+    border: 2px solid black;
+    width: 100%;
+    max-width: 1280px; /* Set a maximum width to match the resolution */
+    height: auto;
+}
+
+canvas {
+    display: none;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: "Abril Fatface", serif;
+    font-size: 48px;
+}
+
+.title {
+    margin-top: 80px;
+    margin-bottom: 60px;
+    padding: 16px; /* Optional: Add some padding */
+}
+
+.description p{
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.upload-image {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+strong {
+    font-weight: 800 !important;
+}
+
+.container {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 800 !important;
+    margin-top: 0 !important;
+}
+
+.form-control {
+    background-color:  rgba(255, 255, 255, 0.8);/* Make the background color transparent */
+    border: 2px dashed #161616;
+}
+
+.design-rationale {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background-color: rgba(255, 255, 255, 0.3); /* 50% transparent background */
+    border-radius: 20px; /* Rounded corners */
+    padding: 30px; /* Optional: Add some padding */
+    border: 3px solid rgb(245, 245, 245);
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 800 !important;
+}
